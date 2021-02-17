@@ -4,13 +4,16 @@ public class A {
 	
 	public static void main(String[] args) {
 		
-		 int age = 20;
-		    if (age>18) {
-		    	System.out.println("condition true");
-	}
-		    else {
-		    	System.out.println("condition is false");
-		    }
-
+            int n=100;
+           
+            for (int i = 1; i <=n; i++) {
+            	
+            	if(i%3==0 & i%5==0 ) {
+            		System.out.println(i);
+            	   
+            	}
+            	
+				
+			}
 }
 }

@@ -7,7 +7,7 @@ public class Reverse {
 		String a= "akshay";
 		String b=" ";
 		
-		for (int i = 5; i>=0 ; i--) {
+	for (int i = 5; i>=0 ; i--) {
 			
 			b= b+a.charAt(i);
 			
